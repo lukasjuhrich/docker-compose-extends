@@ -1,7 +1,6 @@
 version: '2'
 services:
-  db_base:
-    image: postgres
   db_optimized:
     extends:
+      file: common-services.2.yml
       service: db_base
