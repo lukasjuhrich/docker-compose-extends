@@ -1,0 +1,7 @@
+version: '2'
+services:
+  db_base:
+    image: postgres
+  db_optimized:
+    extends:
+      service: db_base
