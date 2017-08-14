@@ -2,5 +2,5 @@ version: '2'
 services:
   db:
     extends:
-      file: ../common-services.yml
+      file: common-services.yml
       service: db_optimized
